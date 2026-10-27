@@ -11,7 +11,7 @@ public class L3Q6 {
         Double x = sc.nextDouble();
         IO.println("The coordinate in y.");
         Double y = sc.nextDouble();
-        if (Math.sqrt((x*x+(y*y))<(ra*ra))) {
+        if (Math.sqrt((x*x+(y*y))<=ra) {
             IO.println("the dot is inside.");
         } else {
             IO.println("the dot is outside.");
