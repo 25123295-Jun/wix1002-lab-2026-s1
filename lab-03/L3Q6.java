@@ -1,7 +1,7 @@
 package lab3;
 
 import java.util.Scanner;
-
+import java.lang.Math;
 public class L3Q6 {
     static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
@@ -11,10 +11,8 @@ public class L3Q6 {
         Double x = sc.nextDouble();
         IO.println("The coordinate in y.");
         Double y = sc.nextDouble();
-        if (x < ra && y < ra) {
+        if (Math.sqrt((x*x+(y*y))<(ra*ra))) {
             IO.println("the dot is inside.");
-        } else if (x == ra || y == ra) {
-            IO.println("the dot is on the line of circle.");
         } else {
             IO.println("the dot is outside.");
         }
