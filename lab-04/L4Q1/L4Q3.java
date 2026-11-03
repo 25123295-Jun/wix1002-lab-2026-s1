@@ -32,3 +32,5 @@ public class L4Q3 {
 
     }
 }
+//or boolean negative = true;
+//while negative = true; then if num<0 change boolean to false
