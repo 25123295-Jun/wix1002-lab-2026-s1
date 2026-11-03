@@ -20,51 +20,9 @@ public class L4Q4 {
         int aug = 31*5+30*2+ feb;
         int startDayM = (firstDay + may) % 7;
         int startDayA = (firstDay + aug) % 7;
-        switch (startDayM){
-            case 0:
-                System.out.println("The first day of May is: Sunday");
-                break;
-            case 1:
-                System.out.println("The first day of May is: Monday");
-                break;
-            case 2:
-                System.out.println("The first day of May is: Tuesday");
-                break;
-            case 3:
-                System.out.println("The first day of May is: Wednesday");
-                break;
-            case 4:
-                System.out.println("The first day of May is: Thursday");
-                break;
-            case 5:
-                System.out.println("The first day of May is: Friday");
-                break;
-            case 6:
-                System.out.println("The first day of May is: Saturday");
-                break;
+        for(int days = 0;days<may;days++){
+            System.out.println(startDayA+days);
         }
-        switch (startDayA){
-            case 0:
-                System.out.println("The first day of August is: Sunday");
-                break;
-            case 1:
-                System.out.println("The first day of August is: Monday");
-                break;
-            case 2:
-                System.out.println("The first day of August is: Tuesday");
-                break;
-            case 3:
-                System.out.println("The first day of August is: Wednesday");
-                break;
-            case 4:
-                System.out.println("The first day of August is: Thursday");
-                break;
-            case 5:
-                System.out.println("The first day of August is: Friday");
-                break;
-            case 6:
-                System.out.println("The first day of August is: Saturday");
-                break;
         }
     }
 }
